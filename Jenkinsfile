@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                echo 'Start build...'
                 sh 'mvn --version'
                 sh 'mvn clean install'
                 sh 'docker-compose build'
