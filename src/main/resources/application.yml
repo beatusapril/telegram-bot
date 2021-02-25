@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql
+    username: root
+    password: 1234
+
+logging:
+  level:
+    org:
+      springframework: INFO
